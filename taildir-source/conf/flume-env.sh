@@ -1,0 +1,1 @@
+export JAVA_OPTS="-Dflume.monitoring.type=http -Dflume.monitoring.port=34545 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=5445 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"

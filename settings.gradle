@@ -1,0 +1,3 @@
+rootProject.name = 'hello-flume'
+include 'taildir-source'
+

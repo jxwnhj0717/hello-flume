@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  flume:
+    image: probablyfine/flume
+    ports:
+      - "5445:5445"
+      - "34545:34545"
+    volumes:
+      - "./conf:/opt/flume-config"
+      - "./data:/data/gamelogs"
+    environment:
+      - FLUME_AGENT_NAME=a1
+
